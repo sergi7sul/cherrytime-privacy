@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cherry Timer — Política de Privacidad / Privacy Policy</title>
+<title>Cherry Timer — Privacy Policy / Política de Privacidad</title>
 <style>
   :root{
     --bg:#fffaf7; --ink:#2a1e18; --muted:#6b5a52; --accent:#c0392b;
@@ -45,7 +45,7 @@
     font-weight:700; padding:3px 10px; border-radius:999px; margin-bottom:10px;
   }
   footer{text-align:center; color:var(--muted); font-size:0.85rem; margin-top:40px}
-  #en{border-top:4px solid var(--accent); padding-top:40px; margin-top:40px}
+  #es{border-top:4px solid var(--accent); padding-top:40px; margin-top:40px}
 </style>
 </head>
 <body>
@@ -53,14 +53,156 @@
 
   <header>
     <h1>🍒 Cherry Timer</h1>
-    <p>Política de Privacidad · Privacy Policy</p>
-    <div class="updated">Última actualización / Last updated: 2026-07-01</div>
+    <p>Privacy Policy · Política de Privacidad</p>
+    <div class="updated">Last updated / Última actualización: 2026-07-01</div>
   </header>
 
   <div class="lang-switch">
-    <a href="#es">Español</a>
     <a href="#en">English</a>
+    <a href="#es">Español</a>
   </div>
+
+  <!-- ================= ENGLISH ================= -->
+  <div id="en">
+
+  <section>
+    <span class="badge">Summary</span>
+    <h2>Quick summary</h2>
+    <p>
+      Cherry Timer is a Pomodoro-style focus timer with guided active breaks.
+      <strong>All app data is stored only on your own device.</strong> We have no servers,
+      we don't create user accounts, we don't use analytics or advertising, and we never sell
+      or share your data with anyone.
+    </p>
+  </section>
+
+  <section>
+    <h2>1. Who we are</h2>
+    <p>
+      Cherry Timer ("the app", "we") is developed by an independent developer. You can reach
+      us for any privacy question at
+      <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. What data the app handles, and how</h2>
+
+    <h3>📷 Camera (optional)</h3>
+    <p>
+      During stretch and exercise breaks, the app may use the front camera to analyze your
+      posture and count repetitions using <strong>Google's MediaPipe Pose Landmarker</strong>,
+      a technology that processes video <strong>entirely on your device (on-device)</strong>.
+      Camera footage is <u>never recorded, saved, uploaded to any server, or leaves your
+      phone</u> at any point; it is only used to compute your joint positions in real time and
+      show you on-screen feedback. This feature is fully optional: you can use the app without
+      granting camera permission and you'll still see an animated exercise guide instead.
+    </p>
+
+    <h3>🔔 Notifications and alarms</h3>
+    <p>
+      We use the notifications and exact-alarm permissions solely to show your focus/break
+      countdown in the notification shade and to alert you when it ends, even with the screen
+      locked. No third-party push notification service is used (no Firebase Cloud Messaging or
+      similar) — everything happens locally on your device via Android's
+      <code>AlarmManager</code>.
+    </p>
+
+    <h3>💾 Settings, history and habits</h3>
+    <p>
+      Your preferences (timer mode, sound tone, language...), session history, day streak and
+      habits (water, eye breaks, exercises) are saved <strong>only locally on your device</strong>
+      using Android DataStore/SharedPreferences. This information never leaves the phone: it is
+      not synced to any cloud, not sent to any server of ours (none exist), and not shared with
+      third parties. The app also explicitly disables Android's automatic backup
+      (<code>allowBackup="false"</code>) to reinforce this.
+    </p>
+
+    <h3>💳 In-app purchases (Cherry Premium)</h3>
+    <p>
+      The one-time Premium purchase is processed entirely through
+      <strong>Google Play Billing</strong>. We never receive or store your card or payment
+      details: Google handles the charge and only tells us whether the purchase succeeded, so
+      we can unlock Premium features. See
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play's
+      privacy policy</a> for details on how Google handles that data.
+    </p>
+
+    <h3>🔤 Fonts</h3>
+    <p>
+      The app downloads its typefaces (Hanken Grotesk, Instrument Serif) via the Google Play
+      Services downloadable-fonts provider. This is a standard Android technical request to
+      fetch the font file and is not linked to your identity or used by us for any other
+      purpose.
+    </p>
+  </section>
+
+  <section>
+    <h2>3. What we <strong>don't</strong> do</h2>
+    <table>
+      <tr><td>❌ We don't collect personally identifiable information (name, email, phone...)</td></tr>
+      <tr><td>❌ We don't use analytics or tracking tools (no Firebase Analytics, Crashlytics, etc.)</td></tr>
+      <tr><td>❌ We don't show ads or use advertising identifiers</td></tr>
+      <tr><td>❌ We don't sell or share data with third parties for commercial purposes</td></tr>
+      <tr><td>❌ We don't require creating an account or signing in</td></tr>
+      <tr><td>❌ We don't store or transmit camera images or video</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>4. Your rights and control over your data</h2>
+    <p>Since all information is stored only on your device, you're in full control:</p>
+    <ul>
+      <li><strong>Delete your data:</strong> go to Android Settings → Apps → Cherry Timer →
+        Storage → "Clear data", or simply uninstall the app.</li>
+      <li><strong>Revoke camera or notification permissions</strong> at any time from Android
+        Settings → Apps → Cherry Timer → Permissions.</li>
+      <li><strong>Restore your Premium purchase</strong> from the app's own setting
+        ("Restore purchase"), managed through your Google Play account.</li>
+    </ul>
+    <p>
+      Because we run no servers of our own, there are no remote copies of your data to delete:
+      clearing the app's data on your device removes all of it.
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Children</h2>
+    <p>
+      Cherry Timer is not specifically directed at children and does not knowingly collect
+      data from minors — in fact, we do not collect data from any user at all.
+    </p>
+  </section>
+
+  <section>
+    <h2>6. Security</h2>
+    <p>
+      All your information stays within your Android device's app sandbox, protected by the
+      operating system itself. Since no data is transmitted over the network, there is no risk
+      of your personal information being intercepted by us.
+    </p>
+  </section>
+
+  <section>
+    <h2>7. Changes to this policy</h2>
+    <p>
+      If we update this policy, the new version will be published at this same URL with a
+      revised "last updated" date. We recommend checking back periodically, especially before
+      updating the app.
+    </p>
+  </section>
+
+  <section>
+    <h2>8. Contact</h2>
+    <p>
+      For any question about this policy or about privacy in general, write to us at
+      <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a>.
+    </p>
+  </section>
+
+  </div>
+  <!-- ================= /ENGLISH ================= -->
+
 
   <!-- ================= ESPAÑOL ================= -->
   <div id="es">
@@ -207,148 +349,6 @@
 
   </div>
   <!-- ================= /ESPAÑOL ================= -->
-
-
-  <!-- ================= ENGLISH ================= -->
-  <div id="en">
-
-  <section>
-    <span class="badge">Summary</span>
-    <h2>Quick summary</h2>
-    <p>
-      Cherry Timer is a Pomodoro-style focus timer with guided active breaks.
-      <strong>All app data is stored only on your own device.</strong> We have no servers,
-      we don't create user accounts, we don't use analytics or advertising, and we never sell
-      or share your data with anyone.
-    </p>
-  </section>
-
-  <section>
-    <h2>1. Who we are</h2>
-    <p>
-      Cherry Timer ("the app", "we") is developed by an independent developer. You can reach
-      us for any privacy question at
-      <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a>.
-    </p>
-  </section>
-
-  <section>
-    <h2>2. What data the app handles, and how</h2>
-
-    <h3>📷 Camera (optional)</h3>
-    <p>
-      During stretch and exercise breaks, the app may use the front camera to analyze your
-      posture and count repetitions using <strong>Google's MediaPipe Pose Landmarker</strong>,
-      a technology that processes video <strong>entirely on your device (on-device)</strong>.
-      Camera footage is <u>never recorded, saved, uploaded to any server, or leaves your
-      phone</u> at any point; it is only used to compute your joint positions in real time and
-      show you on-screen feedback. This feature is fully optional: you can use the app without
-      granting camera permission and you'll still see an animated exercise guide instead.
-    </p>
-
-    <h3>🔔 Notifications and alarms</h3>
-    <p>
-      We use the notifications and exact-alarm permissions solely to show your focus/break
-      countdown in the notification shade and to alert you when it ends, even with the screen
-      locked. No third-party push notification service is used (no Firebase Cloud Messaging or
-      similar) — everything happens locally on your device via Android's
-      <code>AlarmManager</code>.
-    </p>
-
-    <h3>💾 Settings, history and habits</h3>
-    <p>
-      Your preferences (timer mode, sound tone, language...), session history, day streak and
-      habits (water, eye breaks, exercises) are saved <strong>only locally on your device</strong>
-      using Android DataStore/SharedPreferences. This information never leaves the phone: it is
-      not synced to any cloud, not sent to any server of ours (none exist), and not shared with
-      third parties. The app also explicitly disables Android's automatic backup
-      (<code>allowBackup="false"</code>) to reinforce this.
-    </p>
-
-    <h3>💳 In-app purchases (Cherry Premium)</h3>
-    <p>
-      The one-time Premium purchase is processed entirely through
-      <strong>Google Play Billing</strong>. We never receive or store your card or payment
-      details: Google handles the charge and only tells us whether the purchase succeeded, so
-      we can unlock Premium features. See
-      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play's
-      privacy policy</a> for details on how Google handles that data.
-    </p>
-
-    <h3>🔤 Fonts</h3>
-    <p>
-      The app downloads its typefaces (Hanken Grotesk, Instrument Serif) via the Google Play
-      Services downloadable-fonts provider. This is a standard Android technical request to
-      fetch the font file and is not linked to your identity or used by us for any other
-      purpose.
-    </p>
-  </section>
-
-  <section>
-    <h2>3. What we <strong>don't</strong> do</h2>
-    <table>
-      <tr><td>❌ We don't collect personally identifiable information (name, email, phone...)</td></tr>
-      <tr><td>❌ We don't use analytics or tracking tools (no Firebase Analytics, Crashlytics, etc.)</td></tr>
-      <tr><td>❌ We don't show ads or use advertising identifiers</td></tr>
-      <tr><td>❌ We don't sell or share data with third parties for commercial purposes</td></tr>
-      <tr><td>❌ We don't require creating an account or signing in</td></tr>
-      <tr><td>❌ We don't store or transmit camera images or video</td></tr>
-    </table>
-  </section>
-
-  <section>
-    <h2>4. Your rights and control over your data</h2>
-    <p>Since all information is stored only on your device, you're in full control:</p>
-    <ul>
-      <li><strong>Delete your data:</strong> go to Android Settings → Apps → Cherry Timer →
-        Storage → "Clear data", or simply uninstall the app.</li>
-      <li><strong>Revoke camera or notification permissions</strong> at any time from Android
-        Settings → Apps → Cherry Timer → Permissions.</li>
-      <li><strong>Restore your Premium purchase</strong> from the app's own setting
-        ("Restore purchase"), managed through your Google Play account.</li>
-    </ul>
-    <p>
-      Because we run no servers of our own, there are no remote copies of your data to delete:
-      clearing the app's data on your device removes all of it.
-    </p>
-  </section>
-
-  <section>
-    <h2>5. Children</h2>
-    <p>
-      Cherry Timer is not specifically directed at children and does not knowingly collect
-      data from minors — in fact, we do not collect data from any user at all.
-    </p>
-  </section>
-
-  <section>
-    <h2>6. Security</h2>
-    <p>
-      All your information stays within your Android device's app sandbox, protected by the
-      operating system itself. Since no data is transmitted over the network, there is no risk
-      of your personal information being intercepted by us.
-    </p>
-  </section>
-
-  <section>
-    <h2>7. Changes to this policy</h2>
-    <p>
-      If we update this policy, the new version will be published at this same URL with a
-      revised "last updated" date. We recommend checking back periodically, especially before
-      updating the app.
-    </p>
-  </section>
-
-  <section>
-    <h2>8. Contact</h2>
-    <p>
-      For any question about this policy or about privacy in general, write to us at
-      <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a>.
-    </p>
-  </section>
-
-  </div>
-  <!-- ================= /ENGLISH ================= -->
 
   <footer>
     Cherry Timer — <span id="year"></span>
