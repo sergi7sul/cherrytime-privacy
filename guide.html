@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cherry Timer — How it works &amp; tips / Cómo funciona y consejos</title>
+<style>
+  :root{
+    --bg:#fffaf7; --ink:#2a1e18; --muted:#6b5a52; --accent:#c0392b;
+    --card:#ffffff; --border:#eee0da; --sage:#5f8763; --gold:#b98a2e;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:820px; margin:0 auto; padding:40px 20px 80px}
+  header{text-align:center; margin-bottom:32px}
+  header h1{font-size:1.9rem; margin:8px 0 4px}
+  header p{color:var(--muted); margin:0}
+  .lang-switch{
+    display:flex; justify-content:center; gap:8px; margin:24px 0 36px;
+  }
+  .lang-switch a{
+    padding:8px 18px; border-radius:999px; border:1px solid var(--border);
+    text-decoration:none; color:var(--ink); font-size:0.9rem; font-weight:600;
+    background:var(--card);
+  }
+  .lang-switch a:hover{border-color:var(--accent); color:var(--accent)}
+  section{
+    background:var(--card); border:1px solid var(--border); border-radius:16px;
+    padding:28px 32px; margin-bottom:24px;
+  }
+  h2{font-size:1.25rem; margin-top:0; color:var(--accent)}
+  h3{font-size:1.02rem; margin-bottom:6px}
+  ul{margin:8px 0; padding-left:22px}
+  li{margin-bottom:6px}
+  .tip{
+    display:flex; gap:12px; align-items:flex-start; padding:12px 0;
+    border-bottom:1px solid var(--border);
+  }
+  .tip:last-child{border-bottom:none}
+  .tip .emoji{font-size:1.3rem; line-height:1.4}
+  a{color:var(--accent)}
+  .badge{
+    display:inline-block; background:#fbeceb; color:var(--accent); font-size:0.78rem;
+    font-weight:700; padding:3px 10px; border-radius:999px; margin-bottom:10px;
+  }
+  footer{text-align:center; color:var(--muted); font-size:0.85rem; margin-top:40px}
+  #es{border-top:4px solid var(--accent); padding-top:40px; margin-top:40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🍒 Cherry Timer</h1>
+    <p>How it works &amp; tips · Cómo funciona y consejos</p>
+  </header>
+
+  <div class="lang-switch">
+    <a href="#en">English</a>
+    <a href="#es">Español</a>
+  </div>
+
+  <!-- ================= ENGLISH ================= -->
+  <div id="en">
+
+  <section>
+    <span class="badge">What it is</span>
+    <h2>A focus timer with real active breaks</h2>
+    <p>
+      Cherry Timer is a Pomodoro-style focus timer: you work in short, timed bursts and take
+      guided breaks in between — but instead of just staring at a countdown, your break can be
+      a real stretch, a short exercise set, or an eye-care exercise, all guided step by step.
+    </p>
+  </section>
+
+  <section>
+    <h2>How a session works</h2>
+    <ul>
+      <li><strong>Pick a mode</strong> in Settings → Timer: classic 25/5, a longer deep-focus
+        rhythm, or a fully custom focus/break/cycle length.</li>
+      <li><strong>Focus phase:</strong> press play and work until the timer ends. A quiet
+        notification shows the countdown even with the screen locked.</li>
+      <li><strong>Break phase:</strong> choose a stretch break, an exercise break, an eye-care
+        break, or a free break. Every guided break shows a "get ready" screen first — nothing
+        starts counting until you tap "Start".</li>
+      <li><strong>Cycles:</strong> after your set number of focus/short-break cycles, you get a
+        longer break automatically.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Guided break types</h2>
+    <h3>🧘 Stretch</h3>
+    <p>Animated step-by-step stretch guidance. Turn on the camera (optional, Premium) and
+    Cherry Timer uses on-device pose detection to actually count your reps/holds and give
+    live posture feedback — nothing is recorded or uploaded.</p>
+    <h3>💪 Exercise</h3>
+    <p>Short bodyweight (or dumbbells/bands) circuits with real rep counting via the camera,
+    fully configurable in Settings → Exercises: pick your equipment, which exercises to
+    include, and how many reps/seconds each one targets.</p>
+    <h3>👀 Eye care</h3>
+    <p>Guided eye exercises based on the 20-20-20 rule (every 20 minutes, look at something
+    20 feet/6 meters away for 20 seconds) to reduce digital eye strain.</p>
+    <h3>☕ Free break</h3>
+    <p>Just a clean countdown if you'd rather step away without a guided activity.</p>
+  </section>
+
+  <section>
+    <h2>Habits &amp; progress</h2>
+    <p>
+      The water and eye-care chips on the main screen let you log hydration and visual breaks
+      in one tap. The Progress tab turns your real sessions into a weekly/monthly view: focus
+      hours, active minutes, day streak, and achievements — all computed from your actual
+      usage, stored only on your device.
+    </p>
+  </section>
+
+  <section>
+    <h2>💡 Tips to get the most out of it</h2>
+    <div class="tip"><span class="emoji">🎯</span><div>Start with the classic 25/5 mode if
+      you're new to Pomodoro — it's the easiest rhythm to build the habit on.</div></div>
+    <div class="tip"><span class="emoji">📷</span><div>Enable the camera during stretch/exercise
+      breaks (Premium) to get honest rep counts instead of guessing — it also keeps you honest
+      about form.</div></div>
+    <div class="tip"><span class="emoji">🔔</span><div>Allow notifications so you always see the
+      countdown and get alerted the instant a phase ends, even with the screen off.</div></div>
+    <div class="tip"><span class="emoji">💧</span><div>Log water every time you refill — the
+      weekly view is much more useful with real data than with guesses at the end of the day.</div></div>
+    <div class="tip"><span class="emoji">👀</span><div>Don't skip eye-care breaks if you work
+      long hours at a screen — the 20-20-20 rule genuinely reduces eye strain.</div></div>
+    <div class="tip"><span class="emoji">🔥</span><div>Check your streak in the Progress tab —
+      consistency (not intensity) is what makes Pomodoro work long-term.</div></div>
+    <div class="tip"><span class="emoji">🎵</span><div>Pick a completion tone you actually like
+      in Settings → Completion tone — you'll hear it a lot, make it pleasant.</div></div>
+  </section>
+
+  <section>
+    <h2>Questions or feedback?</h2>
+    <p>
+      See our <a href="index.html#en">Privacy Policy</a> for details on how your data is
+      handled (short version: everything stays on your device). For bugs or suggestions,
+      write to <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a> or use
+      "Contact &amp; Feedback" inside the app's Settings.
+    </p>
+  </section>
+
+  </div>
+  <!-- ================= /ENGLISH ================= -->
+
+
+  <!-- ================= ESPAÑOL ================= -->
+  <div id="es">
+
+  <section>
+    <span class="badge">Qué es</span>
+    <h2>Un temporizador de enfoque con descansos activos de verdad</h2>
+    <p>
+      Cherry Timer es un temporizador tipo Pomodoro: trabajas en bloques cortos y cronometrados
+      y, entre medio, haces descansos guiados — pero en lugar de mirar una cuenta atrás sin más,
+      tu descanso puede ser un estiramiento real, una serie de ejercicio corta o un ejercicio de
+      cuidado visual, todo guiado paso a paso.
+    </p>
+  </section>
+
+  <section>
+    <h2>Cómo funciona una sesión</h2>
+    <ul>
+      <li><strong>Elige un modo</strong> en Ajustes → Temporizador: el clásico 25/5, un ritmo
+        más largo de enfoque profundo, o uno totalmente personalizado (duración de enfoque,
+        descanso y ciclos).</li>
+      <li><strong>Fase de enfoque:</strong> pulsa play y trabaja hasta que termine el
+        temporizador. Una notificación discreta muestra la cuenta atrás incluso con la pantalla
+        bloqueada.</li>
+      <li><strong>Fase de descanso:</strong> elige estiramiento, ejercicio, cuidado visual o
+        descanso libre. Cada descanso guiado muestra primero una pantalla de "prepárate" —
+        nada empieza a contar hasta que pulsas "Empezar".</li>
+      <li><strong>Ciclos:</strong> tras el número de ciclos de enfoque/descanso corto que
+        configures, obtienes automáticamente un descanso largo.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Tipos de descanso guiado</h2>
+    <h3>🧘 Estiramiento</h3>
+    <p>Guía animada paso a paso. Activa la cámara (opcional, Premium) y Cherry Timer usa
+    detección de postura en el propio dispositivo para contar de verdad tus repeticiones/
+    aguantes y darte feedback de postura en vivo — nada se graba ni se sube a ningún sitio.</p>
+    <h3>💪 Ejercicio</h3>
+    <p>Circuitos cortos con peso corporal (o mancuernas/bandas) con conteo real de repeticiones
+    por cámara, totalmente configurable en Ajustes → Ejercicios: elige tu equipamiento, qué
+    ejercicios incluir y cuántas repeticiones/segundos hace cada uno.</p>
+    <h3>👀 Cuidado visual</h3>
+    <p>Ejercicios oculares guiados basados en la regla 20-20-20 (cada 20 minutos, mira algo a
+    unos 6 metros de distancia durante 20 segundos) para reducir la fatiga visual digital.</p>
+    <h3>☕ Descanso libre</h3>
+    <p>Solo una cuenta atrás simple, por si prefieres desconectar sin una actividad guiada.</p>
+  </section>
+
+  <section>
+    <h2>Hábitos y progreso</h2>
+    <p>
+      Los chips de agua y cuidado visual en la pantalla principal te dejan registrar
+      hidratación y pausas visuales con un toque. La pestaña de Progreso convierte tus
+      sesiones reales en una vista semanal/mensual: horas de enfoque, minutos activos, racha
+      de días y logros — todo calculado a partir de tu uso real, guardado solo en tu
+      dispositivo.
+    </p>
+  </section>
+
+  <section>
+    <h2>💡 Consejos para sacarle más partido</h2>
+    <div class="tip"><span class="emoji">🎯</span><div>Empieza con el modo clásico 25/5 si eres
+      nuevo en Pomodoro — es el ritmo más fácil para crear el hábito.</div></div>
+    <div class="tip"><span class="emoji">📷</span><div>Activa la cámara durante los descansos de
+      estiramiento/ejercicio (Premium) para tener conteos reales de repeticiones en vez de
+      adivinar — también te ayuda a cuidar la forma.</div></div>
+    <div class="tip"><span class="emoji">🔔</span><div>Permite las notificaciones para ver
+      siempre la cuenta atrás y enterarte al instante cuando termina una fase, incluso con la
+      pantalla apagada.</div></div>
+    <div class="tip"><span class="emoji">💧</span><div>Registra el agua cada vez que rellenes tu
+      vaso — la vista semanal es mucho más útil con datos reales que adivinando al final del
+      día.</div></div>
+    <div class="tip"><span class="emoji">👀</span><div>No te saltes los descansos de cuidado
+      visual si trabajas muchas horas frente a una pantalla — la regla 20-20-20 realmente
+      reduce la fatiga ocular.</div></div>
+    <div class="tip"><span class="emoji">🔥</span><div>Revisa tu racha en la pestaña de
+      Progreso — la constancia (no la intensidad) es lo que hace funcionar el Pomodoro a largo
+      plazo.</div></div>
+    <div class="tip"><span class="emoji">🎵</span><div>Elige un tono de finalización que te
+      guste de verdad en Ajustes → Tono de finalización — lo vas a escuchar muchas veces, que
+      sea agradable.</div></div>
+  </section>
+
+  <section>
+    <h2>¿Dudas o sugerencias?</h2>
+    <p>
+      Consulta nuestra <a href="index.html#es">Política de Privacidad</a> para saber cómo
+      tratamos tus datos (resumen: todo se queda en tu dispositivo). Para incidencias o
+      sugerencias, escribe a <a href="mailto:thorlabsapps@gmail.com">thorlabsapps@gmail.com</a>
+      o usa "Contacto y sugerencias" dentro de los Ajustes de la app.
+    </p>
+  </section>
+
+  </div>
+  <!-- ================= /ESPAÑOL ================= -->
+
+  <footer>
+    Cherry Timer — <span id="year"></span>
+  </footer>
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
